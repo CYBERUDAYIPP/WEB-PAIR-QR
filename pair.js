@@ -40,7 +40,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 router.get('/', async (req, res) => {
     let num = req.query.number;
 
-    async function ZROXY() {
+    async function SUHAIL() {
         const { state, saveCreds } = await useMultiFileAuthState(`./auth_info_baileys`);
         try {
             let Smd = makeWASocket({
@@ -113,23 +113,23 @@ router.get('/', async (req, res) => {
                         console.log("Connection Lost from Server!");
                     } else if (reason === DisconnectReason.restartRequired) {
                         console.log("Restart Required, Restarting...");
-                        ZROXY().catch(err => console.log(err));
+                        SUHAIL().catch(err => console.log(err));
                     } else if (reason === DisconnectReason.timedOut) {
                         console.log("Connection TimedOut!");
                     } else {
                         console.log('Connection closed with bot. Please run again.');
                         console.log(reason);
                         await delay(5000);
-                        exec('pm2 restart 💀');
+                        exec('pm2 restart qasim');
                     }
                 }
             });
 
         } catch (err) {
-            console.log("Error in zroxy function: ", err);
-            exec('pm2 restart 💀');
+            console.log("Error in SUHAIL function: ", err);
+            exec('pm2 restart qasim');
             console.log("Service restarted due to error");
-            ZROXY();
+            SUHAIL();
             await fs.emptyDirSync(__dirname + '/auth_info_baileys');
             if (!res.headersSent) {
                 await res.send({ code: "Try After Few Minutes" });
@@ -137,8 +137,8 @@ router.get('/', async (req, res) => {
         }
     }
 
-    await ZROXY();
+    await SUHAIL();
 });
 
 module.exports = router;
-                    
+                   
