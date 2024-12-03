@@ -16,15 +16,17 @@ const MESSAGE = process.env.MESSAGE ||  `
 *SESSION GENERATED SUCCESSFULY* ✅☠️
 
 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-
+https://github.com/CYBERUDAYIPP/ZROXY-MD
 
 *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
 
+https://whatsapp.com/channel/0029VaDYyTT5EjxuxuGTcg3Q
+
 
 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
+https://youtube.com/CYBERUDAYIPP
 
-
-*ZROXY-MD--WHATTSAPP-BOT* 🥀
+*'ZROXY-MD--WHATTSAPP-BOT'* 🥀
 `
 
 
